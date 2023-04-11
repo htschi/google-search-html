@@ -3,3 +3,42 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p, span {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+li {
+    font-size: 12px;
+}
+
+.outerbox {
+    display: grid;
+    grid-template-columns: 130px 520px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+img {
+    width: 100px;
+}
+
+input[type="text"] {
+    width: 400px;
+    border-radius: 10px;
+    border-color: #c4c4c4;
+}
+
+button {
+    background-color: #4285f3;
+    border-color: #1a5fd0;
+    color: white;
+    border-radius: 2px;
+}
