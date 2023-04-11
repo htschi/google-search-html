@@ -1,24 +1,19 @@
 /* Font */
-
+ 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-p, span {
-    font-size: 14px;
-}
 
 h2 {
     font-size: 24px;
 }
 
-li {
-    font-size: 12px;
-}
-
 .outerbox {
     display: grid;
     grid-template-columns: 130px 520px;
+    border-bottom: solid grey;
 }
 
 form {
@@ -28,17 +23,67 @@ form {
 
 img {
     width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 input[type="text"] {
     width: 400px;
     border-radius: 10px;
     border-color: #c4c4c4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #5b5b5b;
 }
 
-button {
+.search-button {
     background-color: #4285f3;
     border-color: #1a5fd0;
     color: white;
+    height: 40px;
     border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
+.search-button:hover {
+    background-color: #5998ff;
+}
+
+.search-results {
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 700px;
+}
+
+.amount-results {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.single-result {
+    margin-top: 40px;
+}
+
+.listItem a {
+    color: #1a0dab;
+    font-size: 12px;
+}
+
+.listItem a:visited {
+    color: #660099;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.listItem {
+    display: inline;
+}
+
+.regularText, .amount-results {
+    color: #5b5b5b;
+    font-size: 14px;
+}
+
